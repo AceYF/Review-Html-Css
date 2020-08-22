@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('roboto.eot'); /* IE9 Compat Modes */
+    src: url('roboto.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('roboto.woff') format('woff'), /* Modern Browsers */
+    url('roboto.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('roboto.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+::-webkit-input-placeholder{
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+body, html{
+    margin: 0;
+    padding: 0;
+    width: 100% !important;
+    height: 90% !important;
+    font-family: 'Roboto';
+}
+
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 7%;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 100%;
+    box-shadow: 0px 2px 0px 0px #ece7e7;
+    border-left: 1px solid #ece7e7;
+}
+
+.login{
+    background-color: #353a40;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.login .row h3{
+    margin-left: 10%;
+}
+
+.login input{
+    width: 35%;
+    border-radius: 10px;
+    height: 35px;
+    background-color: #353a40;
+    padding: 1% 2%;
+    text-align: left;
+}
+
+input:focus {
+    box-shadow: 0 0 0 0;
+    border: 1;
+    outline: 0;
+} 
+
+.login #service {
+    color: #ffffff;
+}
+
+#sac,#contatos, #withus {
+    color: #ffc229;
+}
+
+.login #msg {
+    width: 70%;
+    height: 60px;   
+    text-align: left;
+}
+
+.login .but{
+    display: flex;  
+    width: 70%;
+    justify-content: center;
+}
+
+.login .but button{
+    width: 130px;
+    border-radius: 15px;
+    background-color: #ffc229;
+    color: #ffffff;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
